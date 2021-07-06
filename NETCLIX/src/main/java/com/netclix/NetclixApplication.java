@@ -9,5 +9,4 @@ public class NetclixApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(NetclixApplication.class, args);
 	}
-
 }

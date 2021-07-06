@@ -50,7 +50,20 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+			<groupId>com.ljy.jwt</groupId>
+			<artifactId>SpringBootJWT</artifactId>
+			<version>0.0.1</version>
+		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>release</id>
+			<url>https://github.com/wodyd202/JwtSecurity/tree/master/release/com/kakao/SpringBootJWT</url>
+		</repository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
